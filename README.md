@@ -1,5 +1,5 @@
 # Ethereum Easy Smart Contract Interface
-Interact with smart contracts easily in JavaScript.
+Interact with smart contracts easily in JavaScript using [web3.js](https://github.com/ChainSafe/web3.js).
 ## Getting Started
 ```bash
 npm install ethesci
