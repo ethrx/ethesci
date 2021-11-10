@@ -8,8 +8,10 @@ npm install ethesci
 ### ERC721
 ```js
 const erc721 = require("ethesci").erc721
+
 // initialize the contract
 var contract = new erc721(network_url, abi_json, contract_address)
+
 // create contract function call
 var contractCall = contract.contractCall(function_name, arguments)
 // call the contract function
@@ -35,8 +37,8 @@ console.log(tokens)
 const Contract = require("ethesci").default
 
 var contract = new Contract(network_url, abi_json, contract_address)
-var contractCall = contract.contractCall(function_name, arguments)
 
+var contractCall = contract.contractCall(function_name, arguments)
 let output = await contractCall.call()
 console.log(output) 
 ```
