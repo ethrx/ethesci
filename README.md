@@ -1,5 +1,5 @@
-# Etherium easy smart contract interface
-Interact with smart contracts easily with JavaScript.
+# Ethereum Easy Smart Contract Interface
+Interact with smart contracts easily in JavaScript.
 ## Getting Started
 ```
 npm install ethesci
