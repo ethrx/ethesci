@@ -19,8 +19,7 @@ let output = await contractCall.call()
 console.log(output) 
 
 // the ERC721 template includes custom functions such as getTokens(owner_address)
-var getTokens = contract.getTokens(owner_address)
-let tokens = await getTokens.call()
+var tokens = contract.getTokens(owner_address)
 console.log(tokens)
 /*
 [
