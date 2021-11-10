@@ -1,6 +1,6 @@
 {
   "name": "ethesci",
-  "author": "ethrx <ethan@ethn.me> (https://ethn.me)
+  "author": "ethrx <ethan@ethn.me> (https://ethn.me)",
   "version": "1.0.1",
   "description": "Ethereum Easy Smart Contract Interface",
   "main": "index.js",
