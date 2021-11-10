@@ -1,15 +1,19 @@
 {
   "name": "ethesci",
-  "version": "1.0.0",
-  "description": "",
+  "author": "ethrx <ethan@ethn.me> (https://ethn.me)
+  "version": "1.0.1",
+  "description": "Ethereum Easy Smart Contract Interface",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "web3": "^1.6.0"
-  }
+  },
+  "bugs": "https://github.com/ethrx/ethesci/issues",
+  "homepage": "https://github.com/ethrx/ethesci",
+  "repository": "github:ethrx/ethesci"
 }
