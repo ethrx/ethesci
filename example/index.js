@@ -1,4 +1,4 @@
-const contractInterface = require("esci").erc721
+const erc721= require("ethesci").erc721
 const abi = require("./example.json")
 const contract = new erc721("https://rpc-mainnet.maticvigil.com/", abi, "0xa8e8dbcab4ea3ef82db09803132ceb43da743579")
 const me = "0x60d1dc8E003ed90524105D201a8a947c3E12f726"
