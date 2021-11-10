@@ -7,10 +7,10 @@ npm install ethesci
 ## Usage
 ### ERC721
 ```js
-const erc721 = require("ethesci").erc721
+const ERC721 = require("ethesci").erc721
 
 // initialize the contract
-var contract = new erc721(network_url, abi_json, contract_address)
+var contract = new ERC721(network_url, abi_json, contract_address)
 
 // create contract function call
 var contractCall = contract.contractCall(function_name, arguments)
